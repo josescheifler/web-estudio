@@ -2,6 +2,10 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
+    // Esto arregla el error 400 en Netlify (imágenes locales)
+    unoptimized: true,
+    
+    // Esto mantiene el permiso para las fotos de Diario Junio
     remotePatterns: [
       {
         protocol: 'https',
