@@ -1,0 +1,21 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Post {
+  id          Int      @id @default(autoincrement())
+  title       String
+  subtitle    String?  // <--- NUEVO: La bajada o copete
+  author      String?  // <--- NUEVO: El autor (ej: José Scheifler)
+  content     String
+  category    String?
+  source      String?
+  imageUrl    String?
+  externalUrl String?
+  createdAt   DateTime @default(now())
+}

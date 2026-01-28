@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "medio": "DIARIO JUNIO • 2025",
+      "titulo": "El dólar en bandas del AMBA y el abandono estatal destruyen la fruta del interior: productores en crisis mientras en Buenos Aires hacen campaña",
+      "categoria": "Economía Regional",
+      "descripcion": "Mientras en Buenos Aires el dólar en bandas busca contener precios, en el interior entrerriano las economías regionales se asfixian. La citricultura, motor histórico de Concordia, se desploma por décadas de políticas erráticas y falta de un plan productivo. Sin estrategias de largo plazo ni compensaciones que equilibren la desigualdad cambiaria, la capital del citrus se queda sin quintas, sin trabajo y sin futuro.",
+      "imagen": "https://www.diariojunio.com.ar/wp-content/uploads/2025/08/citrus-cinta-empaque.jpg",
+      "link": "https://www.diariojunio.com.ar/el-dolar-en-bandas-del-amba-y-el-abandono-estatal-destruyen-la-fruta-del-interior-productores-en-crisis-mientras-en-buenos-aires-hacen-campana/"
+    },
+    {
+      "medio": "DIARIO JUNIO • 2025",
+      "titulo": "El ocaso del arándano en Concordia: la precarización que vuelve disfrazada de pasantía",
+      "categoria": "Economía Regional",
+      "descripcion": "El derrumbe del cultivo de arándanos en Concordia expone el agotamiento de un modelo productivo basado en la exportación rápida y el trabajo precario. Mientras Perú consolida una política sostenida con resultados récord, en Entre Ríos los campos se vacían y el municipio intenta reactivar el sector con un programa de pasantías que, lejos de generar empleo, profundiza la precarización.",
+      "link": "https://www.diariojunio.com.ar/el-ocaso-del-arandano-en-concordia-la-precarizacion-que-vuelve-disfrazada-de-pasantia/",
+      "imagen": "https://www.diariojunio.com.ar/wp-content/uploads/2025/10/arandanos-cosecha.jpg"
+    }
+  ]
+}

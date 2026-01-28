@@ -1,0 +1,25 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "img/uploads"
+public_folder: "/img/uploads"
+
+collections:
+  - name: "configuracion"
+    label: "Configuración"
+    files:
+      - name: "novedades"
+        label: "Noticias y Prensa"
+        file: "datos/novedades.json"
+        fields:
+          - label: "Lista de Noticias"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Título de la Nota", name: "titulo", widget: "string"}
+              - {label: "Fecha / Medio", name: "medio", widget: "string", default: "DIARIO JUNIO • 2024"}
+              - {label: "Categoría", name: "categoria", widget: "select", options: ["Economía Regional", "Producción", "Opinión", "Prensa"]}
+              - {label: "Breve Descripción", name: "descripcion", widget: "text"}
+              - {label: "Link a la Nota", name: "link", widget: "string"}
+              - {label: "Imagen de Portada", name: "imagen", widget: "image"}
