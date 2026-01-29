@@ -67,7 +67,7 @@ export default function Navbar() {
               <Link href="#empresas" onClick={() => setIsOpen(false)} className="block px-3 py-3 text-sm font-bold tracking-wide text-gray-700 hover:text-brand-blue hover:bg-gray-50 rounded-md uppercase">Empresas</Link>
               <Link href="#gobierno" onClick={() => setIsOpen(false)} className="block px-3 py-3 text-sm font-bold tracking-wide text-gray-700 hover:text-brand-blue hover:bg-gray-50 rounded-md uppercase">Gobierno</Link>
               <Link href="#estudio" onClick={() => setIsOpen(false)} className="block px-3 py-3 text-sm font-bold tracking-wide text-gray-700 hover:text-brand-blue hover:bg-gray-50 rounded-md uppercase">El Estudio</Link>
-              <Link href="#novedades" onClick={() => setIsOpen(false)} className="block px-3 py-3 text-sm font-bold tracking-wide text-brand-blue hover:text-brand-gold hover:bg-gray-50 rounded-md uppercase">Prensa & Novedades</Link>
+              <Link href="/prensa" onClick={() => setIsOpen(false)} className="block px-3 py-3 text-sm font-bold tracking-wide text-brand-blue hover:text-brand-gold hover:bg-gray-50 rounded-md uppercase">Prensa & Novedades</Link>
               <Link href="#contacto" onClick={() => setIsOpen(false)} className="block px-3 py-3 text-sm font-bold tracking-wide text-white bg-brand-blue hover:bg-opacity-90 rounded-md mt-4 text-center uppercase">Contacto</Link>
           </div>
       </div>
